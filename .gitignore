@@ -1,0 +1,13 @@
+external_test/
+.vscode/
+__pycache__/
+ravdess/
+
+emotion_model_svm_ravdess.pkl
+emotion_probabilities.png
+prediction_triste.png
+ravdess_accuracy_per_emotion.png
+ravdess_confusion_matrix.png
+ravdess_features.pkl
+
+Audio_Speech_Actors_01-24.zip
