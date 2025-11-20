@@ -17,9 +17,37 @@ Este pacote contém todos os materiais necessários para sua apresentação sobr
 
 ## 🚀 Como Usar
 
-### Opção 1: Notebook Jupyter (Recomendado para Apresentação)
+### Opção 1: Notebook Jupyter para datasets
+notebook que mostra o treino com ravdess, mas pode usar outros dataset
 
-O notebook é ideal para apresentações interativas:
+```bash
+# 1. Instalar Jupyter
+pip install jupyter
+
+# 2. Abrir o notebook
+jupyter train_ravdess_notebook.ipynb
+```
+O notebook contém:
+- ✅ Explicações didáticas
+- ✅ Código comentado
+- ✅ Visualizações
+- ✅ Exemplo completo passo a passo
+
+### Opção 2: Script Python
+
+Para execução direta:
+
+```bash
+# 1. Instalar dependências
+pip install librosa scikit-learn matplotlib seaborn numpy
+
+# 2. Executar
+python train_ravdess.py
+```
+
+### Opção 3: Notebook Jupyter de aúdio separado
+
+notebook com uso de dados sintéticos, porém prontos para usar datasets:
 
 ```bash
 # 1. Instalar Jupyter
@@ -35,7 +63,7 @@ O notebook contém:
 - ✅ Visualizações
 - ✅ Exemplo completo passo a passo
 
-### Opção 2: Script Python
+### Opção 4: Script Python
 
 Para execução direta:
 
@@ -116,7 +144,7 @@ Com os **dados sintéticos** da demo:
 
 ---
 
-## 🗂️ Como Usar com Seus Dados
+## 🗂️ Como Usar com Seus Dados Com emotion_classifier.py e emotion_classifier_notebook.ipynb
 
 ### Estrutura de Diretórios:
 
@@ -297,17 +325,6 @@ Para dúvidas sobre o código ou implementação:
 - Consulte o notebook interativo
 - Leia os comentários no código
 - Experimente com os exemplos fornecidos
-
----
-
-## ✅ Checklist para Apresentação
-
-- [ ] Testei o código localmente
-- [ ] Entendo o que cada feature representa
-- [ ] Posso explicar o pipeline completo
-- [ ] Preparei exemplos de áudio para demo
-- [ ] Revisei os resultados e métricas
-- [ ] Preparei respostas para perguntas comuns
 
 ---
 
