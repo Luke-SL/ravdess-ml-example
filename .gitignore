@@ -13,3 +13,7 @@ ravdess_features.pkl
 Audio_Speech_Actors_01-24.zip
 
 venv/
+
+confusion_matrix.png
+
+pipeline_diagram.png
