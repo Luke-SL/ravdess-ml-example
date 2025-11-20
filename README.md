@@ -1,20 +1,5 @@
 # 🎭 Classificador de Emoções de Áudio - Material para Apresentação
 
-## 📦 Conteúdo
-
-Este pacote contém todos os materiais necessários para sua apresentação sobre classificação de emoções a partir de áudio:
-
-### Arquivos Incluídos:
-
-1. **emotion_classifier.py** - Script Python completo e funcional
-2. **emotion_classifier_notebook.ipynb** - Notebook Jupyter interativo para apresentação
-3. **confusion_matrix.png** - Matriz de confusão gerada
-4. **emotion_probabilities.png** - Gráfico de probabilidades
-5. **pipeline_diagram.png** - Diagrama do pipeline de classificação
-6. **README.md** - Este arquivo
-
----
-
 ## 🚀 Como Usar
 
 ### Opção 1: Notebook Jupyter para datasets
