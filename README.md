@@ -30,7 +30,7 @@ pip install librosa scikit-learn matplotlib seaborn numpy
 python train_ravdess.py
 ```
 
-### Opção 3: Notebook Jupyter de aúdio separado
+### Opção 3: Notebook Jupyter de áudios separados
 
 notebook com uso de dados sintéticos, porém prontos para usar datasets:
 
